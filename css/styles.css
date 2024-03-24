@@ -764,9 +764,15 @@ color: #E7E9FC;
   overflow: hidden;
 }
 
-.modal-check:checked + .modal-privacy-span {
+/* .modal-check:checked + .modal-privacy > .modal-privacy-span {
   background-color: #404BBF;
   border-color: none;
+} */
+
+.modal-check:checked + .modal-privacy > .modal-privacy-span {
+  background-color: #404BBF;
+  border-color: none;
+  fill: #f4f4fd;
 }
 
 
@@ -774,8 +780,6 @@ color: #E7E9FC;
 display: flex;
 align-items: center;
 gap: 8px;
-padding-top: 16px;
-padding-bottom: 24px;
 }
 
 .modal-privacy-span {
@@ -862,7 +866,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
 padding: 8px 16px;
