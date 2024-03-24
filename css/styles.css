@@ -639,8 +639,12 @@ border: none;
 
 }
 
+.footer-subscribe {
+  margin-left: auto;
+}
+
 .subscribe-icon {
-  fill:#080808;
+  fill: #fff;
   margin-left: 16px;
 }
 
