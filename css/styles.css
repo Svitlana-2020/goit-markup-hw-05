@@ -781,7 +781,7 @@ color: #E7E9FC;
 
 
 .modal-privacy {
-display: flex;
+/* display: flex; */
 align-items: center;
 gap: 8px;
 }
